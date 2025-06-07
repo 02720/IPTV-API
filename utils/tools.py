@@ -348,52 +348,82 @@ def convert_to_m3u(path=None, first_channel_name=None, data=None):
     """
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as file:
-            m3u_output = f'#EXTM3U x-tvg-url="{get_epg_url()}"\n'
+            m3u_output = f'#EXTM3U x-tvg-url="https://gitee.com/mytv-android/myepg/raw/master/output/epg.gz"\n'
             current_group = None
             for line in file:
                 trimmed_line = line.strip()
-                if trimmed_line != "":
-                    if "#genre#" in trimmed_line:
-                        current_group = trimmed_line.replace(",#genre#", "").strip()
-                    else:
-                        try:
-                            original_channel_name, _, channel_link = map(
-                                str.strip, trimmed_line.partition(",")
-                            )
-                        except:
-                            continue
-                        processed_channel_name = re.sub(
-                            r"(CCTV|CETV)-(\d+)(\+.*)?",
-                            lambda m: f"{m.group(1)}{m.group(2)}"
-                                      + ("+" if m.group(3) else ""),
-                            first_channel_name if current_group == "🕘️更新时间" else original_channel_name,
-                        )
-                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="{join_url(config.cdn_url, f'https://raw.githubusercontent.com/fanmingming/live/main/tv/{processed_channel_name}.png')}"'
-                        if current_group:
-                            m3u_output += f' group-title="{current_group}"'
-                        item_data = {}
-                        if data:
-                            item_list = data.get(original_channel_name, [])
-                            for item in item_list:
-                                if item["url"] == channel_link:
-                                    item_data = item
-                                    break
-                        if item_data:
-                            catchup = item_data.get("catchup")
-                            if catchup:
-                                for key, value in catchup.items():
-                                    m3u_output += f' {key}="{value}"'
-                        m3u_output += f",{original_channel_name}\n"
-                        if item_data and config.open_headers:
-                            headers = item_data.get("headers")
-                            if headers:
-                                for key, value in headers.items():
-                                    m3u_output += f"#EXTVLCOPT:http-{key.lower()}={value}\n"
-                        m3u_output += f"{channel_link}\n"
+                if not trimmed_line:
+                    continue
+
+                # 提取分组
+                if "#genre#" in trimmed_line:
+                    current_group = trimmed_line.replace(",#genre#", "").strip()
+                    continue
+
+                # 解析频道名 & 链接
+                try:
+                    original_channel_name, _, channel_link = map(
+                        str.strip, trimmed_line.partition(",")
+                    )
+                except ValueError:
+                    continue
+
+                # 计算 processed_channel_name
+                processed_channel_name = re.sub(
+                    r"(CCTV|CETV)-(\d+)(\+.*)?",
+                    lambda m: f"{m.group(1)}{m.group(2)}" + ("+" if m.group(3) else ""),
+                    first_channel_name if current_group == "🕘️更新时间" else original_channel_name,
+                )
+
+                # 针对 “咪咕” 做 logo URL 的特殊处理
+                if "咪咕" in processed_channel_name:
+                    logo_url = (
+                        "https://gitee.com/mytv-android/myTVlogo/"
+                        "raw/master/img/咪咕视频.png"
+                    )
+                else:
+                    logo_url = join_url(
+                        config.cdn_url,
+                        f"https://gitee.com/mytv-android/myTVlogo/raw/main/img/{processed_channel_name}.png"
+                    )
+
+                # 组装 EXTINF 行
+                m3u_output += (
+                    f'#EXTINF:-1 tvg-name="{processed_channel_name}" '
+                    f'tvg-logo="{logo_url}"'
+                )
+                if current_group:
+                    m3u_output += f' group-title="{current_group}"'
+
+                # 如果有额外参数（如 catchup）
+                item_data = {}
+                if data:
+                    for item in data.get(original_channel_name, []):
+                        if item.get("url") == channel_link:
+                            item_data = item
+                            break
+
+                if item_data.get("catchup"):
+                    for key, value in item_data["catchup"].items():
+                        m3u_output += f' {key}="{value}"'
+
+                # 行尾频道显示名
+                m3u_output += f",{original_channel_name}\n"
+
+                # 如果需要附加 HTTP headers
+                if item_data and config.open_headers:
+                    for key, value in item_data.get("headers", {}).items():
+                        m3u_output += f"#EXTVLCOPT:http-{key.lower()}={value}\n"
+
+                # 最后写入实际播放链接
+                m3u_output += f"{channel_link}\n"
+
+            # 写出 .m3u 文件
             m3u_file_path = os.path.splitext(path)[0] + ".m3u"
             with open(m3u_file_path, "w", encoding="utf-8") as m3u_file:
                 m3u_file.write(m3u_output)
-            # print(f"✅ M3U result file generated at: {m3u_file_path}")
+
+        # print(f"✅ M3U result file generated at: {m3u_file_path}")
 
 
 def get_result_file_content(path=None, show_content=False, file_type=None):
