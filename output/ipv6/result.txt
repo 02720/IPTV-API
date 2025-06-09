@@ -138,7 +138,6 @@ CCTV-15音乐,http://39.134.65.87:80/wh7f454c46tw36780480631995458946/ottrrs.hl.
 CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225945/index.m3u8
 CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225693/index.m3u8
 CCTV-15音乐,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
-CCTV-15音乐,http://39.134.65.87:80/wh7f454c46tw3678048063_1995458946/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV-15音乐,http://39.134.65.87:80/wh7f454c46tw36780480631995458946/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV-16奥林匹克,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225937/index.m3u8
 CCTV-16奥林匹克,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225956/index.m3u8
@@ -364,6 +363,12 @@ CCTV-17农业农村,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/8888888
 云南卫视,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225794/index.m3u8
 
 ☘️广西频道,#genre#
+广西卫视,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225767/index.m3u8
+广西综艺旅游,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226292/index.m3u8
+广西都市,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226295/index.m3u8
+广西新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226285/index.m3u8
+广西新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226285/index.m3u8
+广西影视,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226298/index.m3u8
 梧州新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226313/index.m3u8
 梧州新闻综合,http://live.wzrtv.cn:80/xwzh1/sd/live.m3u8
 梧州新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226313/index.m3u8
@@ -372,22 +377,37 @@ CCTV-17农业农村,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/8888888
 梧州教育生活,http://live.wzrtv.cn:80/jysh1/sd/live.m3u8
 梧州教育生活,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226316/index.m3u8
 梧州教育生活,http://live.wzrtv.cn:80/jysh1/sd/live.m3u8
-北海经济科教,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226308/index.m3u8
-北海经济科教,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226308/index.m3u8
-南宁公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226301/index.m3u8
-南宁公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226301/index.m3u8
-南宁新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226281/index.m3u8
-南宁新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226281/index.m3u8
-崇左综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226314/index.m3u8
-崇左综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226314/index.m3u8
+柳州新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226304/index.m3u8
+柳州科教,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226287/index.m3u8
 贺州综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226296/index.m3u8
 贺州综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226296/index.m3u8
-广西新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226285/index.m3u8
-广西新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226285/index.m3u8
-北海新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226309/index.m3u8
-北海新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226309/index.m3u8
+河池新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226302/index.m3u8
+玉林公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226319/index.m3u8
+玉林新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226299/index.m3u8
+南宁新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226281/index.m3u8
+南宁新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226281/index.m3u8
+南宁文旅生活,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226288/index.m3u8
+南宁公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226301/index.m3u8
+南宁公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226301/index.m3u8
 南宁影视娱乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226291/index.m3u8
 南宁影视娱乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226291/index.m3u8
+北海新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226309/index.m3u8
+北海新闻,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226309/index.m3u8
+北海经济科教,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226308/index.m3u8
+北海经济科教,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226308/index.m3u8
+百色综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226322/index.m3u8
+来宾电视台综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226290/index.m3u8
+防城港新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226312/index.m3u8
+防城港公共,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226328/index.m3u8
+崇左综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226314/index.m3u8
+崇左综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226314/index.m3u8
+桂林新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226294/index.m3u8
+桂林科教旅游,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226293/index.m3u8
+桂林公共频道,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226310/index.m3u8
+贵港新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226300/index.m3u8
+贵港科教生活,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226303/index.m3u8
+钦州新闻综合,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226306/index.m3u8
+钦州公共影视,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221226325/index.m3u8
 
 ☘️广东频道,#genre#
 广东卫视,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225913/index.m3u8
@@ -476,6 +496,14 @@ CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225801/index
 CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225925/index.m3u8
 CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225660/index.m3u8
 CCTV-5体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
+CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225801/index.m3u8
+CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225925/index.m3u8
+CCTV-5体育,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225660/index.m3u8
+CCTV-5体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
+CCTV-5+体育赛事,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225998/index.m3u8
+CCTV-5+体育赛事,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225712/index.m3u8
+CCTV-5+体育赛事,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
+CCTV-5+体育赛事,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
 CCTV-5+体育赛事,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225998/index.m3u8
 CCTV-5+体育赛事,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225712/index.m3u8
 CCTV-5+体育赛事,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
@@ -496,6 +524,10 @@ CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225945/inde
 CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225693/index.m3u8
 CCTV-15音乐,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
 CCTV-15音乐,http://39.134.65.87:80/wh7f454c46tw36780480631995458946/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
+CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225945/index.m3u8
+CCTV-15音乐,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225693/index.m3u8
+CCTV-15音乐,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226476/index.m3u8
+CCTV-15音乐,http://39.134.65.87:80/wh7f454c46tw36780480631995458946/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 
 🕘️更新时间,#genre#
-2025-06-09 07:01:35,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225934/index.m3u8
+2025-06-10 06:53:24,http://cdnrrs.gx.chinamobile.com/PLTV/77777777/224/3221225934/index.m3u8
