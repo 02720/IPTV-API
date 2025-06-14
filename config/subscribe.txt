@@ -25,7 +25,7 @@ https://www.cloudplains.cn/result.txt
 http://49.0.205.239:8866/Sub?type=txt
 https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt
 https://raw.githubusercontent.com/xzw832/cmys/main/S_weishi.txt
-https://raw.githubusercontent.com/lalifeier/IPTV/main/m3u/IPTV.m3u
+https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/IPTV.txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
 https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.m3u
 https://gitee.com/liliang74120/cxkj6863/raw/master/mySD
@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u
 https://raw.githubusercontent.com/kilvn/iptv/refs/heads/master/iptv.m3u
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt
 https://live.lizanyang.top/hn.m3u
-https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/IPTV.txt
 https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.1.txt
+https://live.hacks.tools/tv/iptv4.txt
 
 https://gitee.com/hyx2230/IPTV/raw/master/tv.txt
