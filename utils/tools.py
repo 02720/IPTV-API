@@ -348,7 +348,7 @@ def convert_to_m3u(path=None, first_channel_name=None, data=None):
     """
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as file:
-            m3u_output = f'#EXTM3U x-tvg-url="{get_epg_url()}"\n'
+            m3u_output = f'#EXTM3U x-tvg-url="{https://gitee.com/hyx2230/myEPG/raw/master/output/epg.gz}"\n'
             current_group = None
             for line in file:
                 trimmed_line = line.strip()
@@ -368,7 +368,15 @@ def convert_to_m3u(path=None, first_channel_name=None, data=None):
                                       + ("+" if m.group(3) else ""),
                             first_channel_name if current_group == "🕘️更新时间" else original_channel_name,
                         )
-                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="{join_url(config.cdn_url, f'https://raw.githubusercontent.com/fanmingming/live/main/tv/{processed_channel_name}.png')}"'
+                        
+                        # 修改开始：根据频道名称选择logo URL
+                        if "咪咕" in processed_channel_name:
+                            logo_url = "https://gitee.com/mytv-android/myTVlogo/raw/master/img/咪咕视频.png"
+                        else:
+                            logo_url = join_url(config.cdn_url, f'https://gitee.com/mytv-android/myTVlogo/raw/master/img/{processed_channel_name}.png')
+                        # 修改结束
+                        
+                        m3u_output += f'#EXTINF:-1 tvg-name="{processed_channel_name}" tvg-logo="{logo_url}"'
                         if current_group:
                             m3u_output += f' group-title="{current_group}"'
                         item_data = {}
