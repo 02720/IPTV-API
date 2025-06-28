@@ -19,14 +19,12 @@ http://49.0.205.239:8866/Sub?type=txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/IPTV.txt
 https://raw.githubusercontent.com/lalifeier/IPTV/main/txt/hotel/%E5%85%A8%E5%9B%BD.txt
 https://raw.githubusercontent.com/alienlu/iptv/refs/heads/master/iptv.m3u
-http://8.138.7.223/v12.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 
 https://tv.iill.top/m3u/Gather
 
 https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u
-https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/refs/heads/main/bbxx.txt
 https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u
 https://raw.githubusercontent.com/kilvn/iptv/refs/heads/master/iptv.m3u
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt
