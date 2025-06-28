@@ -6,7 +6,6 @@ https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/bbxx.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/l.txt
 https://raw.githubusercontent.com/asdjkl6/tv/tv/.m3u/整套直播源/测试/整套直播源/kk.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-https://raw.githubusercontent.com/YueChan/Live/main/APTV.m3u
 http://wx.thego.cn/df.txt
 http://wx.thego.cn/backup.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
